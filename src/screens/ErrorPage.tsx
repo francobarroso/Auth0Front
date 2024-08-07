@@ -1,10 +1,9 @@
-import { useAuth0 } from "@auth0/auth0-react";
-
 const ErrorPage = () => {
-    const { getAccessTokenSilently } = useAuth0();
 
     return (
-        <></>
+        <>
+            <h1>Error, página no encontrada</h1>
+        </>
     );
 };
 
